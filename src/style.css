@@ -26,6 +26,7 @@ li {
   line-height: 16px;
   padding-left: 9px;
   padding-top: 6px;
+  text-transform: capitalize;
 }
 
 .weather-app-wrapper {
