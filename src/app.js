@@ -1,7 +1,6 @@
 let apiURL =
   "https://api.openweathermap.org/data/2.5/weather?lat=40.73&lon=-73.99&appid=2ff29bed3181c3526c35cc5408037f85&units=metric";
 
-console.log(apiURL);
 axios.get(apiURL).then(displayTemperature);
 
 function formatDate(timestamp) {
